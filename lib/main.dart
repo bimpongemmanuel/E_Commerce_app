@@ -1,4 +1,5 @@
 import 'package:device_preview/device_preview.dart';
+import 'package:ecomers_app/screens/all_product_details_screen.dart';
 import 'package:ecomers_app/screens/splash_screen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,7 @@ main(){
       builder: DevicePreview.appBuilder,
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
-      home:const SplashView() ,
+      home: SplashView() ,
     )
      )
   );
